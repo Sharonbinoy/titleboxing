@@ -438,7 +438,7 @@
                         }
                     }
                 };
-                xhr.open('GET.html', obj.settings.url + ( !obj.settings.cache ? '?_=' + new Date().getTime() : '' ), true);
+                xhr.open('GET', obj.settings.url + ( !obj.settings.cache ? '?_=' + new Date().getTime() : '' ), true);
                 xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
                 xhr.send(null);
             }
